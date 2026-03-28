@@ -1,4 +1,5 @@
-# Leetcode 476
+#O(1) Time
+#O(1) Space
 class Solution:
     def findComplement(self, num: int) -> int:
         mask = (1 << num.bit_length()) - 1 
