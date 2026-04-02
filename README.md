@@ -10,3 +10,11 @@ This repository contains my personal solutions to algorithm and data structure p
 - Strengthen my understanding of data structures and algorithms
 - Document my progress as I prepare for internships and full-time software engineering roles
 - Share my solutions and approaches with others who may find them helpful during their own learning
+
+## Topics Covered So Far:
+- Hashmaps
+- Sets
+- Bit Manipulation
+- Linked Lists
+- Stacks
+- Two Pointers
