@@ -18,3 +18,7 @@ This repository contains my personal solutions to algorithm and data structure p
 - Linked Lists
 - Stacks
 - Two Pointers
+- Strings
+- Divide and Conquer
+- Lists
+- Counting
