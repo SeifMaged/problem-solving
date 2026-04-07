@@ -22,3 +22,4 @@ This repository contains my personal solutions to algorithm and data structure p
 - Divide and Conquer
 - Lists
 - Counting
+- Stack
