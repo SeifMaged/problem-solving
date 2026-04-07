@@ -20,6 +20,5 @@ This repository contains my personal solutions to algorithm and data structure p
 - Two Pointers
 - Strings
 - Divide and Conquer
-- Lists
+- Arrays/Lists
 - Counting
-- Stack
