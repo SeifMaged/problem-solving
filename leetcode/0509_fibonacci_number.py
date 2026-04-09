@@ -1,5 +1,5 @@
 # Easy
-# Dynamic Programming
+# Dynamic Programming OR Recursion
 # O(1) Space
 
 class Solution:
@@ -16,3 +16,10 @@ class Solution:
             a, b = a + b, a
         
         return a + b # Return F(n-1) + F(n-2)
+
+    def fib_2(self, n: int) -> int: # O(2^n) Time, O(n) Space
+        if n == 0 or n == 1:
+            return n
+
+        return self.fib_2(n-1) + self.fib_2(n-2)
+        
