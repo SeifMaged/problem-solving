@@ -3,6 +3,8 @@
 # O(log n) Time, where n is the length of nums
 # O(1) Space
 
+from typing import List
+
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         low, high = 0, len(nums) - 1

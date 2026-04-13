@@ -2,12 +2,15 @@
 # Binary Tree 
 # O(min(m,n)) Time, where m and n are the number of nodes in p and q respectively
 # O(min(m,n)) Space, where m and n are the number of nodes in p and q respectively
+
+from typing import Optional
 # Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
 class Solution:
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
         if not p and not q:

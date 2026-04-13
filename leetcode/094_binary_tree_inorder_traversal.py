@@ -3,12 +3,14 @@
 # O(n) Time, where n is the number of nodes in the binary tree
 # O(h) Space, where h is the height of the binary tree
 
+from typing import Optional, List
 # Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         

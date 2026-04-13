@@ -2,6 +2,9 @@
 # Stack
 # O(n) Time, where n is the length of operations
 # O(n) Space, where n is the length of operations
+
+from typing import List
+
 class Solution:
     def calPoints(self, operations: List[str]) -> int:
         stack = []
