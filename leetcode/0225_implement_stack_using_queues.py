@@ -38,29 +38,29 @@ class MyStack:
 
 
 
-
+# Alternate Solution
 # Efficient Implementation using a single list but violates the problem constraint of using only queue operations
-# O(1) Amortized Time for push, pop and top. O(1) Time for empty 
+# O(1) Amortized Time for push
 # O(1) Time for pop, top and empty
 
-# class MyStack:
+class MyStack:
 
-#     def __init__(self):
-#         self.stack = []
+    def __init__(self):
+        self.stack = []
         
 
-#     def push(self, x: int) -> None:
-#         self.stack.append(x)
+    def push(self, x: int) -> None:
+        self.stack.append(x)
 
-#     def pop(self) -> int:
-#         return self.stack.pop()
+    def pop(self) -> int:
+        return self.stack.pop()
         
 
-#     def top(self) -> int:
-#         return self.stack[-1]
+    def top(self) -> int:
+        return self.stack[-1]
 
-#     def empty(self) -> bool:
-#         return len(self.stack) == 0
+    def empty(self) -> bool:
+        return len(self.stack) == 0
 
 
 # # Your MyStack object will be instantiated and called as such:
