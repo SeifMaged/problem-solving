@@ -24,3 +24,7 @@ This repository contains my personal solutions to algorithm and data structure p
 - Counting
 - Dynamic Programming
 - Recursion
+- Binary Search
+- Trees
+- Queues
+- Greedy
