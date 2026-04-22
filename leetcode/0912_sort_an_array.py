@@ -49,3 +49,18 @@ class Solution:
             arr[k] = right[j]
             j +=1 
             k += 1
+
+
+    # Alternative Sorting Algorithm: Insertion Sort
+    # O(n^2) time, O(1) space
+    # Won't be efficient for large arrays, but can be useful for small or nearly sorted arrays
+    
+    def insertion_sort(self, nums: List[int]) -> List[int]:
+        for i in range(1, len(nums)):
+            j = i - 1
+            while j >= 0 and nums[j+1] < nums[j]:
+                nums[j+1], nums[j] = nums[j], nums[j+1]
+                j-=1
+
+        
+        return nums

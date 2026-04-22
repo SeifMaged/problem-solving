@@ -4,6 +4,9 @@
 # O(nk) time, O(1) space
 # Greedy, Linked List, Merge
 
+# Possible Improvements:
+# Use a min-heap to optimize the time complexity to O(n log k)
+
 from typing import List, Optional
 #Definition for singly-linked list.
 class ListNode:
