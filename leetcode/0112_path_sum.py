@@ -26,7 +26,5 @@ class Solution:
             if not root.left and not root.right and path == targetSum:
                 return True
             return leaf_path(root.left, path) or leaf_path(root.right, path)
-            path -= root.val
-            return False
         
         return leaf_path(root, 0)
