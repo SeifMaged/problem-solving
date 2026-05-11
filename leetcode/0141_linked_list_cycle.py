@@ -2,7 +2,7 @@
 # https://leetcode.com/problems/linked-list-cycle/
 # Easy
 # O(n) time, O(1) space, where n is the number of nodes in the linked list.
-# Linked List, Two Pointers, Slow and Fast Pointers
+# Linked List, Two Pointers, Slow and Fast Pointers, Floyd's Tortoise and Hare Algorithm
 # We use two pointers, slow and fast, to traverse the linked list. The slow pointer moves one step at a time, while the fast pointer moves two steps at a time.
 # If there is a cycle in the linked list, the fast pointer will eventually meet the slow pointer in O(n) time. If there is no cycle, the fast pointer will reach the end of the linked list.
 
