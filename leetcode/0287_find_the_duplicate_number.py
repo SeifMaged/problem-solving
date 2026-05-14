@@ -27,4 +27,3 @@ class Solution:
             if slow == fast:
                 return slow
         
-        return -1
